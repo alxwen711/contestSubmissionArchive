@@ -16,7 +16,7 @@ Below is the simplified repository structure.
 ```
 └── 📁contestSubmissionArchive
     └── 📁archive
-        └── 📁live contests
+        └── 📁livecontests
         └── 📁practice
     └── 📁LIVE
         └── 📁contest folder
@@ -29,7 +29,7 @@ Below is the simplified repository structure.
     ├── LICENCE    
 ```
 
-`archive` folder contains all archived contest code; when forking this repository for personal archival use, this entire should be deleted. `LIVE` folder contains `build.py` for creating the contest folder in which you will have several copies of the coding template setup for use in a live contest and `archive.py` for archiving the contest folder to a specified subfolder in `archive`. These scripts are most easily accessible via the `Makefile`.
+`archive` folder contains all archived contest code. The subfolder `livecontests` is for code actually done during a realtime competition whereas `practice` is more freeform practice code. When forking this repository for personal archival use, this entire should be deleted. `LIVE` folder contains `build.py` for creating the contest folder in which you will have several copies of the coding template setup for use in a live contest and `archive.py` for archiving the contest folder to a specified subfolder in `archive`. These scripts are most easily accessible via the `Makefile`.
 
 ### Makefile Commands
 
