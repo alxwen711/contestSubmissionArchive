@@ -1,7 +1,7 @@
 .PHONY: build archive
 
 # Flags
-PATH="archive/unsorted"
+PATH=archive/unsorted
 
 build:
 	@echo "Constructing new base folder..."
