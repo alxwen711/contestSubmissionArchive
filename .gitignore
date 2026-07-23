@@ -2,3 +2,5 @@
 .DS_Store
 /wip
 *__pycache__*
+
+LIVE/scratch.py
