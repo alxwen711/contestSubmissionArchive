@@ -1,0 +1,18 @@
+import sys
+
+#input functions
+readint = lambda: int(sys.stdin.readline())
+readints = lambda: map(int,sys.stdin.readline().split())
+readar = lambda: list(map(int,sys.stdin.readline().split()))
+flush = lambda: sys.stdout.flush()
+readin = lambda: sys.stdin.readline()[:-1]
+readins = lambda: map(str,sys.stdin.readline().split())
+
+n = readint()
+ar = list()
+for i in range(n):
+    ar.append(readint())
+ans = 0
+for j in range(1,n-1):
+    if ar[j]-ar[j-1] > ar[j+1]-ar[j]: ans += 1
+print(ans)
